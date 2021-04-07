@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-size: 16px;
+    background-image: linear-gradient(to bottom right, rgb(33, 158, 89), yellow);
+    background-color: #127481;
+    background-size: 1000px, 1000px;
+}
+h2 {
+    text-align: center;
+    font-size: 2.0em;
+    background: rgb(13, 150, 86);
+    color: whitesmoke;
+    padding: 20px 10px;
+
+}
+.wrapper {
+    border: 2px solid black;
+    padding: 0px;
+    margin: -5px;
+    background:rgb(82, 119, 8);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+form {
+    border: 2px solid rgb(82, 119, 8);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    
+}
+h4 {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    border: 2px solid white;
+    width: 100%;
+    padding:10px 20px;
+    background:rgb(62, 141, 66);
+}
+.input-group:nth-child(2) {
+
+    display:flex;
+    justify-content: space-between;
+}
+.input-group:nth-child(2) .input-box:nth-child(1) {
+
+    text-align: center;
+    display: flex;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.input-group:nth-child(2) .input-box:nth-child(2) {
+
+    text-align: center;
+    display: flex;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.input-group:nth-child(2) .input-box:nth-child(1) input {
+    border: 1px solid white;
+    order: 2;
+}
+.input-group:nth-child(2) .input-box:nth-child(2) input {
+    border: 1px solid white;
+    order: 2;
+    padding: 10px 20px; 
+}
+.name {
+    padding: 10px 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+
+}
+.input-group:nth-child(3){
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+
+    
+}
+.input-group:nth-child(3) .input-box:nth-child(1){
+    text-align: center;
+    display: flex;
+    width: 100%;
+
+    
+}
+.input-group:nth-child(3) .input-box:nth-child(1) input{
+    border: 1px solid white;
+    text-align: center;
+    order: 2;
+    width: 100%;
+
+    
+}
+.input-box .icon {
+    font-size: 2.0em;
+    color: white;
+    padding: 10px 20px;
+    background:rgb(99, 120, 148) ;
+}
+.input-box .fa-envelope {
+    font-size: 2.0em;
+    color: white;
+    padding: 10px 20px;
+    background:rgb(99, 120, 148) ;
+} 
+
+.input-group:nth-child(4) {
+    border: 2px solid green;
+    display: flex;
+ 
+}
+.input-group:nth-child(4) .input-box:nth-child(1) h4 {
+    /* width: 100%; */
+
+
+}
+
+
+
+.input-group:nth-child(4) .input-box:nth-child(1) {
+    width: 50%;
+}
+.input-group:nth-child(4) .input-box:nth-child(1) input{
+    border: 1px solid white;
+    width: 25%;
+    margin: 3px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+ }
+.input-group:nth-child(4) .input-box:nth-child(2) h4 {
+    width: 100%;
+}
+.input-group:nth-child(4) .input-box:nth-child(2) {
+
+    width: 50%;
+    color: white;
+
+}
+.input-group:nth-child(4) .input-box:nth-child(2) .radio{
+    margin-left: 30px;
+
+
+}
+.input-group:nth-child(5) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color:white
+ 
+}
+.input-group:nth-child(5) .input-box:nth-child(1) h4 {
+    width: 100%;
+
+}
+
+.input-group:nth-child(5) .input-box:nth-child(1) {
+    width: 100%;
+    text-align: center;
+}
+.input-group:nth-child(6) {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.input-group:nth-child(6) .input-box:nth-child(1) {
+    width: 100%;
+    display: flex;
+}
+.input-group:nth-child(6) .input-box:nth-child(1) input {
+    border: 1px solid white;
+    order: 2;
+    width: 100%;
+  
+
+}
+.input-group:nth-child(7){
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input-group:nth-child(7) .input-box:nth-child(1) {
+
+
+    display: flex;
+    justify-content: center;
+}
+.input-group:nth-child(7) .input-box:nth-child(1) input {
+    border: 1px solid white;
+
+    font-size: 1.1em;
+    order: 2;
+
+}
+.input-group:nth-child(7) .input-box:nth-child(2) {
+ 
+    text-align: center;
+    padding: 10px 20px;
+}
+.input-group:nth-child(7) .input-box:nth-child(2) select {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px 20px;
+
+}
+.input-group:nth-child(8){
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+.input-group:nth-child(8) .input-box:nth-child(1) {
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.input-group:nth-child(8) .input-box:nth-child(1) button {
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px 40px;
+    background:#107dac;
+    color:white;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    color:white;
+    font-weight:800;
+    
+}
